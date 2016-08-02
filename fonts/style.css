@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('icons.eot?ywxy26');
+  src:  url('icons.eot?ywxy26#iefix') format('embedded-opentype'),
+    url('icons.ttf?ywxy26') format('truetype'),
+    url('icons.woff?ywxy26') format('woff'),
+    url('icons.svg?ywxy26#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart2:before {
+  content: "\48";
+}
+.icon-diamond2:before {
+  content: "\44";
+}
+.icon-cup:before {
+  content: "\43";
+}
+.icon-paperplane:before {
+  content: "\50";
+}
+.icon-food2:before {
+  content: "\46";
+}
+
